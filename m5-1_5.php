@@ -44,6 +44,7 @@ pwさえ打てば空欄でもデータになり、投稿できる。
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
     # bbstbというテーブルを作成
+    # bbs = bulletin board system（掲示板）
     $sql = "CREATE TABLE IF NOT EXISTS bbstb"
     ." ("
     . "number INT AUTO_INCREMENT PRIMARY KEY,"
