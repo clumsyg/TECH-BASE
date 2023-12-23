@@ -23,9 +23,9 @@
     <?php
     
     # データ接続設定
-    $dsn = 'mysql:dbname=tb250555db;host=localhost';
-    $user = 'tb-250555';
-    $password = 'bPPuxU5mHd';
+    $dsn = 'mysql:dbname=********db;host=localhost';
+    $user = '*********';
+    $password = '**********';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
     # bbstbというテーブルを作成
